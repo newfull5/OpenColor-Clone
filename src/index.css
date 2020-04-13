@@ -6,7 +6,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.contents{
+  margin-left: 320px;
+}
+
+.openColorIs {
+  font-size: 36px;
+  font-weight: 650;
+  color: #495057;
+  margin-top: 100px;
+  line-height: 43px;
+}
+
+.optimizeFor{
+  margin-top: 23px;
+  font-weight: 360;
+  font-size: 18px;
+  color: #868e96;
+}
+
+.version{
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: 360;
+  line-height: 18px;
+  color: #868e96;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

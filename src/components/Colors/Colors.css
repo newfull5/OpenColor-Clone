@@ -1,0 +1,25 @@
+.color-contain {
+    display: flex;
+}
+
+.box {
+    border: none; 
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #495057;
+}
+
+.colorName {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #868e96;
+}
+
+.colorName:hover {
+    color: gray;
+    cursor: pointer;
+}

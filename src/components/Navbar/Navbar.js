@@ -3,7 +3,7 @@ import React from 'react';
 import logo from './logo.png';
 import './Navbar.css';
 
-const Navbar = ({value}) => {
+const Navbar = () => {
   return (
     <main className="nav-template">
       <div className="nav-wrap">
