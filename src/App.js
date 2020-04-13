@@ -5,7 +5,6 @@ class App extends Component {
   render() {
     return (
       <Navbar>
-        <img src='./components/logo.png'></img>
       </Navbar>
     );
   }
