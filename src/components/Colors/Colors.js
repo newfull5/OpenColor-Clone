@@ -1,11 +1,12 @@
 import React from 'react';
 import './Colors.css';
 
-const Colors = () => {
+
+const Colors = (props) => {
   return (
     <div className="color-contain">
-      <div className="box" />
-      <div className='colorName'>GRAY</div>
+      <div className="box" style={props.Mystyle}/>
+      <div className='colorName'>{props.name}</div>
     </div>
   );
 };

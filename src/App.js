@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar/Navbar.js';
-import Colors from './components/Colors/Colors.js';
+import ColorContainer from './components/Colors/ColorContainer.js';
 
 class App extends Component {
   render() {
@@ -17,9 +17,8 @@ class App extends Component {
           <div className="version">
             Version 1.6.3<br/>MIT license
           </div>
-          <Colors></Colors>
         </div>
-
+        <ColorContainer></ColorContainer>
       </div>
     );
   }
