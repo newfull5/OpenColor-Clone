@@ -1,0 +1,29 @@
+.color-wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 173px);
+    grid-template-rows: 80px 30px 20px;
+    column-gap: 3px;
+}
+
+.fox {
+    background-color: gray;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.fox-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #495057;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.fox-sharp {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: 0;
+    color: #868e96;
+}

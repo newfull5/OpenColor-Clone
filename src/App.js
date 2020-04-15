@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar/Navbar.js';
 import ColorContainer from './components/Colors/ColorContainer.js';
+import Chipes from './components/Chipes/Chipes.js';
 
 class App extends Component {
   render() {
@@ -18,7 +19,8 @@ class App extends Component {
             Version 1.6.3<br/>MIT license
           </div>
         </div>
-        <ColorContainer></ColorContainer>
+        <ColorContainer />
+        <Chipes />
       </div>
     );
   }
