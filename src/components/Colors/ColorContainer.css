@@ -1,5 +1,5 @@
 .colorline {
-    display: flex;
+    display: inline-flex;
 }
 
 hr {

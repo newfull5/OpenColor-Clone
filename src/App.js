@@ -20,6 +20,7 @@ class App extends Component {
           </div>
         </div>
         <ColorContainer />
+        <div style={{height:"70px"}}/>
         <Chipes />
       </div>
     );
